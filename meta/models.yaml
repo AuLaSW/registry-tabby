@@ -7,7 +7,7 @@
   <<: *deepseekcoder-v2
   urls:
     - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q5_K_S.gguf
-  sha256: 1ff79f43ad5728d3179bf8fa7ee2993652f4306d6aeca9c35055f4f5b7b864cd
+  sha256: fe9b55d85300769825f0d9d69ce4d259ad0438ab42222d48ee3fdf99a728dcf8
 # - name: StarCoder-1B
 #   provider_url: https://huggingface.co/bigcode/starcoderbase-1b
 #   <<: &starcoder-series
