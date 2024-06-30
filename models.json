@@ -9,5 +9,16 @@
       "https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q6_K.gguf"
     ],
     "sha256": "1ff79f43ad5728d3179bf8fa7ee2993652f4306d6aeca9c35055f4f5b7b864cd"
+  },
+  {
+    "name": "Replete-Coder-Llama3-8B",
+    "provider_url": "https://huggingface.co/Replete-AI/Replete-Coder-Llama3-8B",
+    "license_name": "Llama 3",
+    "license_url": "https://llama.meta.com/llama3/license/",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "urls": [
+      "https://huggingface.co/bartowski/Replete-Coder-Llama3-8B-GGUF/resolve/main/Replete-Coder-Llama3-8B-Q8_0.gguf"
+    ],
+    "sha256": "a62883e215cd1fbabbbe52e17cd6cfb25186e978ae2eb56bf5a0ce6e86ac089a"
   }
 ]
