@@ -3,7 +3,7 @@
   <<: &deepseekcoder-v2
     license_name: Deepseek License
     license_url: https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL
-    prompt_template: "<｜system_begin｜>{system}<｜system_end｜><｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>"
+    prompt_template: "You are a professional coder who writes well-written, commented code in a number of programming languages. You explain each step of your thought process in comments and never write more code than is necessary. When you don't know how to do something, you leave a comment giving a quick description of how you think it should be done.<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>"
   <<: *deepseekcoder-v2
   urls:
     - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q6_K.gguf
