@@ -6,7 +6,7 @@
     prompt_template: "You are a professional coder who writes well-written, commented code in a number of programming languages. You explain each step of your thought process in comments and never write more code than is necessary. When you don't know how to do something, you leave a comment giving a quick description of how you think it should be done.<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>"
   <<: *deepseekcoder-v2
   urls:
-    - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q6_K.gguf
+    - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q5_K_S.gguf
   sha256: 1ff79f43ad5728d3179bf8fa7ee2993652f4306d6aeca9c35055f4f5b7b864cd
 # - name: StarCoder-1B
 #   provider_url: https://huggingface.co/bigcode/starcoderbase-1b
