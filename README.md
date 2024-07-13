@@ -12,7 +12,6 @@ We have published benchmarks for these models on https://leaderboard.tabbyml.com
 | Model ID | License |
 | -------- | ------- |
 | [TabbyML/DeepseekCoder-v2-15.7B-instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [TabbyML/Replete-Coder-Llama3-8B](https://huggingface.co/Replete-AI/Replete-Coder-Llama3-8B) | [Llama 3](https://llama.meta.com/llama3/license/) |
 
 
 ## Chat models (`--chat-model`)
