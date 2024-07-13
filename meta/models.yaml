@@ -6,7 +6,7 @@
     prompt_template: "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>"
   <<: *deepseekcoder-v2
   urls:
-    - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q6_K.gguf
+    - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q5_K_M.gguf
   sha256: 1ff79f43ad5728d3179bf8fa7ee2993652f4306d6aeca9c35055f4f5b7b864cd
 - name: Replete-Coder-Llama3-8B
   provider_url: https://huggingface.co/Replete-AI/Replete-Coder-Llama3-8B
