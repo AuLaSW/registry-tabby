@@ -1,23 +1,23 @@
 - name: DeepseekCoder-v2-15.7B-instruct
-  provider_url: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
+  # provider_url: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
   <<: &deepseekcoder-v2
     license_name: Deepseek License
     license_url: https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL
     prompt_template: "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>"
   <<: *deepseekcoder-v2
-  urls:
-    - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q5_K_M.gguf
-- name: Replete-Coder-Llama3-8B
-  provider_url: https://huggingface.co/Replete-AI/Replete-Coder-Llama3-8B
-  <<: &replete-coder
-    license_name: Llama 3
-    license_url: https://llama.meta.com/llama3/license/
-    prompt_template: "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>"
-  <<: *replete-coder
-  urls:
-    - https://huggingface.co/bartowski/Replete-Coder-Llama3-8B-GGUF/resolve/main/Replete-Coder-Llama3-8B-Q8_0.gguf
-  sha256: a62883e215cd1fbabbbe52e17cd6cfb25186e978ae2eb56bf5a0ce6e86ac089a
-  sha256: 3de21719a8ffb4f6acc4b636d4ca38d882e0d0aa9a5d417106f985e0e0a4a735
+  # urls:
+  #   - https://huggingface.co/AuLaSW/DeepSeek-Coder-V2-Instruct-gguf/resolve/main/ggml-model-Q5_K.gguf
+  # sha256: 3de21719a8ffb4f6acc4b636d4ca38d882e0d0aa9a5d417106f985e0e0a4a735
+# - name: Replete-Coder-Llama3-8B
+#   provider_url: https://huggingface.co/Replete-AI/Replete-Coder-Llama3-8B
+#   <<: &replete-coder
+#     license_name: Llama 3
+#     license_url: https://llama.meta.com/llama3/license/
+#     prompt_template: "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>"
+#   <<: *replete-coder
+#   urls:
+#     - https://huggingface.co/bartowski/Replete-Coder-Llama3-8B-GGUF/resolve/main/Replete-Coder-Llama3-8B-Q8_0.gguf
+#   sha256: a62883e215cd1fbabbbe52e17cd6cfb25186e978ae2eb56bf5a0ce6e86ac089a
 # - name: StarCoder-1B
 #   provider_url: https://huggingface.co/bigcode/starcoderbase-1b
 #   <<: &starcoder-series

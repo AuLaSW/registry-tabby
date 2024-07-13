@@ -11,7 +11,7 @@ We have published benchmarks for these models on https://leaderboard.tabbyml.com
 
 | Model ID | License |
 | -------- | ------- |
-| [TabbyML/DeepseekCoder-v2-15.7B-instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
+| [TabbyML/DeepseekCoder-v2-15.7B-instruct]() | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 
 
 ## Chat models (`--chat-model`)
